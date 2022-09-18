@@ -1,0 +1,946 @@
+{
+  "current": {
+    "color_text": "#a95119",
+    "color_body_text": "#465b5c",
+    "color_sale_text": "#465b5c",
+    "color_button": "#465b5c",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#465b5c",
+    "color_text_field_text": "#000000",
+    "color_text_field_border": "#cccccc",
+    "color_text_field": "#ffffff",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#685858",
+    "image_overlay_opacity": 0,
+    "color_borders": "#ebebeb",
+    "color_body_bg": "#ffffff",
+    "type_header_font": "josefin_sans_n4",
+    "type_header_base_size": 36,
+    "type_base_font": "josefin_sans_n4",
+    "type_base_size": 20,
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "share_image": "shopify:\/\/shop_images\/PORTAD.jpg",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Artepallay\/",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/artepallay\/",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCIPdEyTPP-cIeqp61CGljZw?view_as=subscriber",
+    "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/isotipo_3.png",
+    "enable_ajax": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/LogoAP.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fcecd9",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#be7c3b",
+    "checkout_button_color": "#be7c3b",
+    "checkout_error_color": "#e32c2b",
+    "share_instagram": true,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "center",
+          "logo": "shopify:\/\/shop_images\/logo2022.png",
+          "logo_max_width": 150,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": false,
+          "message_text": "Envíos a todo el Perú y el mundo",
+          "message_link": "",
+          "color_bg": "#be7c3b",
+          "color_text": "#8e4232"
+        }
+      },
+      "hero-1": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Banner_1.jpg",
+          "alignment": "bottom",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "large",
+          "title": "",
+          "text": "",
+          "button_label": "Ver catálogo",
+          "button_link": "shopify:\/\/collections"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Untitledhj-6.png",
+          "layout": "left",
+          "title": "Sobre  Arte Pallay",
+          "text": "<p>Revaloramos la cultura peruana a través de la fabricación de accesorios contemporáneos basados en diversos textiles. Nuestros insumos son reciclados y los productos son hechos por manos artesanas.<\/p>",
+          "button_label": "Sobre nosotros",
+          "button_link": "shopify:\/\/pages\/sobre-nosotros"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "46d0797b-48ba-431b-a17c-998c8119dc93": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "menu": ""
+            }
+          },
+          "0059c10a-565c-44a2-84ee-f1bceb5efab3": {
+            "type": "text",
+            "settings": {
+              "title": "Contáctanos",
+              "text": "<p>+51 977 277 488<\/p>"
+            }
+          },
+          "92455199-7d20-4813-8c9b-5c156e25e1d3": {
+            "type": "link_list",
+            "settings": {
+              "title": "Información",
+              "menu": "men-informaci-n"
+            }
+          }
+        },
+        "block_order": [
+          "46d0797b-48ba-431b-a17c-998c8119dc93",
+          "0059c10a-565c-44a2-84ee-f1bceb5efab3",
+          "92455199-7d20-4813-8c9b-5c156e25e1d3"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#be7c3b",
+          "color_footer_text": "#8e4232",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": false,
+          "show_vendor": false,
+          "sort_enable": false,
+          "tags_enable": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "También te puede interesar",
+          "show_vendor": false
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "list",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "1596284674205": {
+        "type": "collection",
+        "settings": {
+          "title": "Destacados",
+          "collection": "bolsos",
+          "grid": 5,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "date",
+          "grid": 3
+        }
+      },
+      "1596416492803": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "1596416492803-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "bolsos"
+            }
+          },
+          "1596416492803-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "mochilas"
+            }
+          },
+          "1596416712528": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "canguro"
+            }
+          },
+          "1596416740910": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "estuches"
+            }
+          },
+          "1596686221556": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "mascarillas"
+            }
+          },
+          "1596416492803-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "monederos"
+            }
+          },
+          "1598741731220": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "cuadernos"
+            }
+          }
+        },
+        "block_order": [
+          "1596416492803-0",
+          "1596416492803-2",
+          "1596416712528",
+          "1596416740910",
+          "1596686221556",
+          "1596416492803-1",
+          "1598741731220"
+        ],
+        "settings": {
+          "title": "Lista de colecciones",
+          "grid": 5
+        }
+      },
+      "1639836758c304e05f": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Banner_secuandario-05.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "La belleza y los colores de nuestros tejidos son el mejor legado de nuestra cultura",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "16398370213e9edddd": {
+        "type": "logo-bar",
+        "disabled": true,
+        "blocks": {
+          "16398370213e9edddd-0": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "16398370213e9edddd-1": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "16398370213e9edddd-2": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "16398370213e9edddd-3": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "16398370213e9edddd-0",
+          "16398370213e9edddd-1",
+          "16398370213e9edddd-2",
+          "16398370213e9edddd-3"
+        ],
+        "settings": {
+          "title": "Lista de logos"
+        }
+      },
+      "1639837174652e7e03": {
+        "type": "slideshow",
+        "blocks": {
+          "1639837174652e7e03-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fff111.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "Ver catálogo",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "09809f00-a8f2-4331-91ab-52682435389d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner2.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "Ver catálogo",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "565c5736-ed84-4317-a714-a82eb59b2c7d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner_2.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "Ver catálogo",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "1639837174652e7e03-1": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner_4.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "Ver catálogo",
+              "button_link": "shopify:\/\/collections"
+            }
+          }
+        },
+        "block_order": [
+          "1639837174652e7e03-0",
+          "09809f00-a8f2-4331-91ab-52682435389d",
+          "565c5736-ed84-4317-a714-a82eb59b2c7d",
+          "1639837174652e7e03-1"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "sobrenosotros": {
+        "type": "sobrenosotros",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Untitlegfhd-6.png",
+          "layout": "left",
+          "title": "¿Que significa “Pallay”?",
+          "text": "<p>“Pallay”, significa disponer y procesar diferente tipos de insumos que luego posibilitan la construcción del conocimiento. Esto es posible a través de las manos, los ojos y el corazón. En el tejido son las manos las encargadas de explicitar lo aprendido con los ojos y dinalizadocon el corazón.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1640736541c42606a4": {
+        "type": "feature-columns",
+        "disabled": true,
+        "blocks": {
+          "1640736541c42606a4-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/cultura.jpg",
+              "title": "Revalorización de la cultura",
+              "text": "<p>Elaboramos accesorios contemporáneos basados en textiles cusqueños, utilizando técnicas ancestrales de tejido en telar. <\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1640736541c42606a4-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Fabricacion_sostenible.jpg",
+              "title": "Fabricación  sostenible",
+              "text": "<p>Reutilizamos textiles antiguos para convertirlos después en accesorios modernos. Además del uso de técnicas naturales de teñido y fabricación.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1640736541c42606a4-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Manos_artesanas.jpg",
+              "title": "Hecho por manos artesanales",
+              "text": "<p>Los productos son fabricadas por maestros artesanos de pequeñas comunidades, que elaboran piezas únicas y en poca cantidad.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1640736541c42606a4-0",
+          "1640736541c42606a4-1",
+          "1640736541c42606a4-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "sobrenosotros2": {
+        "type": "sobrenosotros2",
+        "settings": {
+        }
+      },
+      "164122723277d44c30": {
+        "type": "custom-content",
+        "blocks": {
+          "164122723277d44c30-0": {
+            "type": "text",
+            "settings": {
+              "title": "Síguenos en Instagram",
+              "text": "<p><a href=\"https:\/\/instagram.com\/artepallay?utm_medium=copy_link\" target=\"_blank\" title=\"https:\/\/instagram.com\/artepallay?utm_medium=copy_link\"><strong>@artepallay<\/strong><\/a><\/p>",
+              "width": "100%",
+              "alignment": "top-middle",
+              "align_text": "center"
+            }
+          }
+        },
+        "block_order": [
+          "164122723277d44c30-0"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "164126945944808f15": {
+        "type": "image-bar",
+        "disabled": true,
+        "blocks": {
+          "164126945944808f15-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/artepallay2022.jpg",
+              "alignment": "center",
+              "link": "https:\/\/www.instagram.com\/p\/CYLQOVgNUi2\/?utm_source=ig_web_button_share_sheet",
+              "cta_label": ""
+            }
+          },
+          "164126945944808f15-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bolsoMuyu.jpg",
+              "alignment": "center",
+              "link": "https:\/\/www.instagram.com\/p\/CXzTAb-JznS\/?utm_source=ig_web_button_share_sheet",
+              "cta_label": ""
+            }
+          },
+          "164126945944808f15-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/artepallayInsta7.jpg",
+              "alignment": "center",
+              "link": "https:\/\/www.instagram.com\/p\/CXPy6rEt7O_\/?utm_source=ig_web_button_share_sheet",
+              "cta_label": ""
+            }
+          },
+          "549405a6-51fa-40fd-9f3a-f23dfef1c2cd": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bolsoRosa.jpg",
+              "alignment": "center",
+              "link": "https:\/\/www.instagram.com\/p\/CV-tW0-p-PB\/?utm_source=ig_web_button_share_sheet",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "164126945944808f15-0",
+          "164126945944808f15-1",
+          "164126945944808f15-2",
+          "549405a6-51fa-40fd-9f3a-f23dfef1c2cd"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "164192904058833993": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "helvetica_n4",
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "1639837174652e7e03",
+      "hero-1",
+      "feature-row",
+      "1596416492803",
+      "1639836758c304e05f",
+      "16398370213e9edddd",
+      "1596284674205",
+      "164122723277d44c30",
+      "1640736541c42606a4",
+      "164126945944808f15",
+      "164192904058833993"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+          }
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "share_instagram": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {
+          }
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {
+          }
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
