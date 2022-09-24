@@ -1,0 +1,237 @@
+
+
+
+@media (max-width: 768px) {
+  .container-fluid-banner-principal{
+    display: none;
+  }
+  .close-barra {
+    display: none;
+  }
+}
+  
+
+
+
+.cursos-section .card {
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  /* background-color: #fff; */
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.cursos-section .card:hover {
+  -webkit-box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+
+.cursos-section .card:hover .card__img--hover {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.cursos-section .card:hover .card__info {
+  background-color: transparent;
+  position: relative;
+}
+
+.cursos-section .card:hover .card__info-hover {
+  opacity: 1;
+}
+
+.cursos-section {
+  background-color: #d9d9d9;
+  padding: 20px 0;
+}
+
+.nosotros-section {
+  background: #1a1a1b;
+  padding: 60px 0;
+}
+
+
+.titulo {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+}
+
+.titulo.light {
+  color: #1a1a1b;
+}
+
+.titulo:before {
+  content: "";
+  background: #0f1c3d;
+  height: 6px;
+  width: 50px;
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+}
+
+.fotos-sec .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.card__img {
+  visibility: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card__info-hover {
+  position: absolute;
+  padding: 26px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  -webkit-transition: 0.3s all ease-out;
+  -o-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 235px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  top: 0;
+}
+
+.card__info {
+  z-index: 1;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 0px 14px 14px 14px;
+}
+
+.card__info-hover {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+
+
+.cursos-section .card:hover .card__info {
+  background-color: transparent;
+  position: relative;
+}
+
+.cursos-section .card:hover .card__info-hover {
+  opacity: 1;
+}
+
+.card__by {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cont-carta{
+  width: 450px;
+  height: 450px;
+  margin: 30px auto;
+  cursor: pointer;
+  perspective: 1200px;
+}
+
+.cont-carta .carta{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 1s ease;
+  transform-style: preserve-3d;
+  /*--- Permite establecer el efecto 3D a todo los elementos hijos de '.carta' ---*/
+}
+
+.cont-carta:hover .carta{
+  transform: rotateY(180deg);
+}
+
+.cont-carta .carta .cara{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  /*--- Permite ocultar la parte de atras de las Cartas ---*/ 
+
+}
+
+.cont-carta .carta .trasera{
+  transform: rotateY(180deg);
+  /*--- Permite rotar la carta(cara-Trasera) 180 grados en el eje Y ---*/ 
+}
+
+.cont-carta .carta .cara img{
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+
+.btn-enlace,
+.btn-enlace-light {
+  background: #0f1c3d;
+  color: #fff;
+  padding: 20px 40px;
+  font-weight: bold;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  border-radius: 80px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.btn-enlace:hover,
+.btn-enlace-light:hover {
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+  color: #fff;
+}
+
+.btn-enlace-light {
+  background-color: transparent;
+  padding: 20px 40px !important;
+  font-weight: 400;
+  font-size: 16px !important;
+}
+
+.btn-enlace-light:hover {
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+  color: #000;
+}

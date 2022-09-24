@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('partials/header') %>
+    <title>Nuevo Articulo</title>
+</head>
+
+<body>
+
+  <%- include('partials/navigation') %>
+    <div class="container p-4">
+
+      <div class="row">
+
+        <div class="col-md-4 mx-auto">
+
+          <form method="POST" target="/new-entry" class="card bg-dark text-light card-body">
+
+            <div class="mb-3">
+              <label for="title">Titulo</label>
+              <input name="title" type="text" class="form-control rounded-0" placeholder="Agregar Titulo" autofocus
+                required>
+            </div>
+
+            <div class="mb-3">
+              <label for="description">Color</label>
+              <textarea class="form-control" name="description" placeholder="Agregar Descripcion" rows="2" required></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="title">Precio</label>
+              <input name="author" type="text" class="form-control rounded-0" placeholder="Agregar Precio" autofocus required>
+            </div>
+
+            <div class="mb-3">
+              <label for="image">Imagen</label>
+              <input type="url" name="image" class="form-control" placeholder="http://..." required>
+            </div>
+
+            <div class="mb-3">
+              <input type="submit" value="Ingresar" class="btn btn-primary">
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <%- include('partials/footer')%>
+</body>
+
+</html>

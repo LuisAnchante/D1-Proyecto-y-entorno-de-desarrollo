@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('partials/header') %>
+    <title>Artículos CRUD</title>
+</head>
+
+<body>
+
+  <!-- <%- include('partials/navigation') %> -->
+
+  <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+      <h1 class="display-5 mb-3">Nuestros productos</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis eligendi reprehenderit
+      </p>
+  </div>
+
+  <section class="cursos-section" id="equipo">
+    <div class="container">
+      <div class="titulo light text-center mb-3" >Artículos</div>
+        <div class="row cards">
+          
+          <%if (books.length> 0) {%>
+
+            <% books.forEach(function(book) { %>
+              <div class="col-xl-3 col-lg-3 col-sm-6 text-center mb-3">
+                <article class="card card--1">
+                    <img class="img-fluid mb-4" src="<%= book.image %>" alt="">
+                    <div class="card__info">
+                        <spam style="font-size: larger;" class="card__by"><%= book.title %></spam>
+                        <p style="font-size: medium;" class="mb-4"><%= book.description %></p>
+                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">S/. <%= book.author %></a>
+                    </div>
+                </article>
+              </div>
+              <%})%>
+
+                <%} else {%>
+                  <div class="card card-body text-center">
+                    <p>Sin Articulos para mostrar. </p>
+                  </div>
+                  <%}%>
+        </div>          
+    </div>
+  </section> 
+
+</body>
+
+</html>
